@@ -1,0 +1,1054 @@
+a{
+  list-style: none;
+}
+:root{
+  --swiper-navigation-size: 10px !important;
+  --swiper-theme-color: #000 !important;
+}
+
+/* Start First Video */
+.FirVid{
+  width: 100%;
+  height: 690px;
+  margin-bottom: 4px;
+  object-fit: cover;
+}
+/* End First Video */
+/* Start Text Fir Vid */
+.BoxSale{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 13%;
+  margin: 0;
+}
+.PBoxSale{
+  font-size: 90px;
+  font-weight: bold;
+  margin: 0;
+}
+.FirTxSale{
+  font-size: 90px;
+  font-weight: bold;
+}
+.scoTxSale{
+  font-size: 18px;
+  font-weight: 500;
+}
+.TherTxSale{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* End Text Fir Vid */
+/* Start Text BoxesListCover */
+.BigBoxList{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 394px;
+  margin: 0;  
+}
+.BigBtnlIST{
+  width: 34%;
+  height: 50px;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 550;
+  cursor: pointer;  
+}
+/* End Text BoxesListCover */
+/* Satrt Text Nav */
+.Nav{
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  margin-top: 13px;
+  z-index: 2;
+}
+.BoxFlotLeft{
+  display: flex;
+}
+.BoxFlotRaigh{
+  position: absolute;
+  right: 0;
+}
+.Logo{
+  margin: -8px 34px 0 24px;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.TexWO{
+  margin: 0 10px 0 10px ;
+  font-weight: 500; 
+  width: 67px;
+  padding: 2px;
+}
+.TexMe{
+  margin: 0 10px 0 10px ;
+  width: 67px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 8px;
+  transition: .5s;
+}
+.ActiveClass{
+  margin: 0 10px 0 10px ;
+  background-color: #ff0058;
+  color: white;
+  width: 67px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 8px;
+  transition: .5s;
+}
+.InpuNav{
+  border: 0;
+  border-bottom: 1px solid black;
+  margin: 0 0 0 33px;
+  background-color: transparent;
+  width: 200px;
+  position: relative;
+  right: 36px;
+}
+.IcoNav{
+  font-size: 18px;
+  padding: 4px;
+  margin: 0 4px;
+  position: relative;
+  right: 30px;
+}
+/* End Text Nav */
+/* Start Text Asied */
+.ToggleAssideIco{
+  display: none;
+}
+.AsideLeft{
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 30%; */
+  /* height: 100%; */
+  background-color: transparent;
+  z-index: 1000;
+}
+.IcoSroll{
+  position: relative;
+  top: 53px;
+  left: -21px;
+  font-size: 17px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  display: none;
+}
+.IcoSrollMopile{
+    position: relative;
+    top: -2px;
+    left: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    display: none;
+}
+.display{
+  display: block;
+}
+.AllDet{
+  margin:  100px 34px 0 24px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Tahoma;
+}
+.DetilAvtive{
+  transition: .5s;
+  color: #ff0058;
+  text-decoration: none;
+}
+.DetalisAside{
+  margin-bottom: 10px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.ToggleDetil{
+  position: fixed;
+  top: 0px;
+  transform: translateX(-220px);
+  /* display: inline; */
+
+}
+.ToggleDetilActive{
+  position: fixed;
+  top: 0px;
+  transition: .5s;
+  transform: translateX(0px);
+  z-index: 1;
+  width: 470px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+}
+.LiAsideBox{
+  list-style: none;
+  text-decoration: none;
+}
+.LinksAside{
+  position: relative;
+  top: 68px;
+  display: inline;
+  }
+.DetilTohhleBox{
+    color: #ff0058;
+    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+.FirCollAside{
+  margin-bottom: 40px;
+}
+.ScoCollAside{
+  margin-bottom: 40px;
+  
+}
+.TherCollAside{
+  margin-bottom: 40px;
+}
+.ForthCollAside{
+  margin-bottom: 40px;
+}
+  .LineToggle{
+    width: 140px;
+    height: 1px;
+    background: rgb(156, 155, 155);
+    transform: translateX(-160px);
+
+}
+/* End Text Aside */
+/* Strat Text Photo Left AND right*/
+.Pho2Righ{
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 4px;
+  height: 744px;
+}
+.BoxRaght{
+  display: inline;
+  float: left;
+  width: 49%;
+  margin: 4px;
+  height: 744px;
+}
+.BoxLeft{
+  display: inline;
+  float: left;
+  width: 49%;
+  margin: 4px;
+  height: 744px;
+}
+.PhoLeft{
+  display: inline;
+  float: left;
+  width: 99%;
+  margin: 4px;
+  height: 744px;
+}
+.active{
+  opacity: .6;
+  transition: .5s;
+  zoom: 100px;
+}
+.pImg{
+  position: relative;
+  bottom: 60%;
+  left: 7%;
+  font-size: 39px;
+  font-family: monospace;
+  display: inline;
+  letter-spacing: 6px;
+  font-weight: 800;
+}
+.pImg2{
+  position: relative;
+  bottom: 60%;
+  left: 7%;
+  font-size: 39px;
+  font-family: monospace;
+  display: inline;
+  letter-spacing: 6px;
+  font-weight: 800;
+}
+.MianP{
+  display: inline;
+}
+.ScondP{
+  font-size: 18px;
+  display: inline;
+  position: relative;
+  left: -121px;
+  letter-spacing: 0;
+  top: 24px;
+}
+/* End Text Photo Left AND right*/
+/* Start Text Photo FulklScreenImg*/
+.AllFlotPho{
+  width: 100%;
+  height: 753px;
+}
+.FullScreenImgCon{
+  width: 100%;
+  height: 690px;
+  margin-bottom: 4px;
+  object-fit: cover;
+}
+.FullScreenImg{
+  width: 99%;
+  height: 100%;
+}
+/* End Text Photo FulklScreenImg*/
+/* Start Text Photo Recomended*/
+.AllRecoMend{
+  width: 100%;
+  height: 632px;
+  overflow: auto;
+}
+.H3Rexo{
+  font-size: 25px;
+    text-align: left;
+    margin: 37px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1;
+    word-break: break-word;
+    margin-bottom: 32px;
+}
+.AllCard{
+  width: 140%;
+  height: 400px;
+  overflow: visible;
+  transform: translateX(15px);
+}
+.Card{
+  display: inline-block;
+  width: 300px !important;
+  height: 600px !important;
+  margin: 0  !important;
+  margin-right: 6px !important;
+  cursor: pointer;
+}
+.DetiCard{
+  width: 100%;
+  height: 100%;
+}
+.ImgCard{
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+
+
+
+
+.P1Crd{
+  color: #636363;
+  line-height: 1;
+  font-size: .8125rem;
+}
+.P2Crd{
+  margin: 0;
+  font-weight: bold;
+}
+.SwiperCon{
+  margin-left: 65px !important;
+}
+.swiper{
+  width: 100%;
+  height: 500px;
+} 
+
+.swiper-button-next, .swiper-button-prev{
+  background-color: white;
+  border-radius: 50%;
+  width: 28px !important;
+  height: 28px !important;
+  position: absolute;
+    top: 44% !important;
+}
+.SwiperViewBTN{
+  margin-left: 10px;
+  color: #6d6d6d;
+}
+.SwiperViewBTN:hover{
+  color: #000;
+}
+/* End Text Photo Recomended*/
+/* Satrt Text Footer*/
+.BeforFooter{
+  text-align: center;
+}
+.H2BeforFoo{
+  font-size: 45px;
+}
+.InpuBeforFoo{
+  width: 550px;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid #b4b4b4;
+  position: relative;
+  left: -90px;
+}
+.LapleInput{
+  position: relative;
+  left: 7%;
+  color: #b4b4b4;
+  z-index: 1;
+}
+.InpuBeforFoo:focus{
+  border: 1PX solid #ff0058;
+}
+.P2BeforFoo{
+  font-weight: bold;
+}
+.HrBefor{
+  margin-top: 40px;
+  opacity: .5;
+}
+.AllBoxesFooter{
+  display: flex;
+  height: 350px;
+  height: 500px;
+}
+.Box1Footer{
+  margin: 60px;
+  width: 200px;
+  height: 100%;
+}
+.Span{
+  color: #f5a623;
+}
+.h2Footer{
+  font-size: 18px;
+}
+.PFooter{
+  font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-bottom: 8px;
+}
+.ENdFooter{
+  width: 100%;
+}
+.EndRaght{
+  display: inline;
+  float: left;
+  margin-left: 15px;
+}
+.EndLeft{
+  float: right;
+  display: inline;
+  margin-right: 20px;
+}
+.LastWord{
+  color: #636363;
+  margin-left: 8px;
+}
+.IconFooter{
+  font-size: 20px;
+  margin: 8px;
+}
+/* End Text Footer*/
+/* Satrt ScoNavNew */
+.ScoNavNew{
+  margin-left: 24px;
+  margin-top: 50px;
+  position: fixed;
+  top: 0px;
+}
+.ScoNavNewScroll{
+  margin-left: 24px;
+  margin-top: 50px;
+  position: fixed;
+  top: -65px;
+  left: 31px;
+  transition: 1s;
+  font-size: 13;
+  z-index: 1;
+}
+
+.UlScoNavNew{
+display: flex;
+margin-left: -34px;
+}
+
+.ProLiScoNavNew{
+  color: #6d6d6d; 
+  list-style: none;
+  font-size: 14px;
+  margin: 3px 24px 8px 0;
+  cursor: pointer;
+}
+.AvtiveScoNav{
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ProH2{
+  font-weight: 500;
+  margin-left: 40px;
+  font-size: 16px;
+  position: relative;
+    top: 17px;
+}
+.ProNew{
+  width: 100%;
+  position: relative;
+  top: 190px;
+}
+.CardProNew{
+  width: calc(100% / 4 - 4px);
+  height: 480px;
+  display: inline-block;
+  margin-right: 4px;
+}
+.ImgProNew1{
+  width: 100%;
+}
+.ScoBox{
+  display: flex;
+}
+.SixesProNews{
+  width: 96%;
+  height: 102px;
+  position: relative;
+  margin: auto;
+  top: -135px;
+  background: white;
+  border-radius: 14px;
+  text-align: center;
+  visibility: hidden;
+}
+.UlCardPro{
+  display: flex;
+  position: relative;
+  left: 6px;
+}
+.LiCardPro{
+  list-style: none;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #b4b4b4;
+  border-radius: 1.25rem;
+  background-color: #fff;
+  margin-right: 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.LiCardPro:hover{
+  border: 1px solid black;
+}
+.TextCardPro{
+  position: relative;
+  top: -132px;
+  left: 10PX;
+  margin-top:8px ;
+}
+.TextDeti1{
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.TextDeti2{
+  margin: 0;
+  font-size: 15px;
+}
+.colosrCard{
+  display: flex;
+  position: relative;
+  top: -13px;
+  margin-top: 12px;
+  visibility: hidden;
+}
+.ColorCARDwhite{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: hsl(240deg 14% 93%);
+  margin-right: 6px;
+
+}
+.ColorCARDBlue{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: hsl(55deg 21% 48%);
+  margin-right: 6px;
+
+}
+.ColorCARDBlack{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 6px;
+
+}
+.activColor{
+  border: 1px solid black;
+}
+.Vaspilty{
+  visibility: visible;
+}
+/* End ScoNavNew */
+
+/* Start Cart */
+.Ico{
+  position: fixed;
+  top: 18px;
+  right: 8px;
+  font-size: 18px;
+  z-index: 2;
+  cursor: pointer;
+
+}
+.ProoInCart{
+  position: fixed;
+  top: 6px;
+  right: 17px;
+  font-size: 14px;
+  z-index: 2;
+  background: #5bc791;
+  width: 19px;
+  height: 19px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+.AllProCartr{
+  position: relative;
+  top: 60px;
+}
+.OverLayCart{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 1;
+  opacity: .6;
+}
+.OvelLay{
+  background-color: black;
+  width: 200%;
+  height: 200%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.Cart{
+  width: 380px;
+  height: 102%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+.EmpatyCart{
+  width: 250px;
+  text-align: center;
+  position: relative;
+  top: 180px;
+  left: 18%;
+  background-color: black;
+  color: white;
+  padding: 9px;
+  border-radius: 5px;
+  line-height: 100%;
+  margin: 8px;
+  border: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.EmpatyCartbtn{
+  width: 250px;
+  text-align: center;
+  position: relative;
+  top: 180px;
+  left: 27%;
+  background-color:#5bc791 ;
+  padding: 9px;
+  border-radius: 5px;
+  line-height: 100%;
+  margin: 8px;
+  border: 0;
+  display: block;
+  }
+.CartProduct{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  overflow: auto;
+}
+.CloseIcop{
+  float: right;
+  margin: 8px;
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+}
+.BaskeTx{
+  font-size: 25px;
+  position: relative;
+  top: 28px;
+  left: 25px;
+  display: inline;
+  color: black;
+}
+.ProoLenght{
+  margin-left: 6px;
+  display: inline;
+  font-size: 18px;
+}
+.CartPro{
+  width: 97%;
+  height: 100px;
+  margin: 8px;
+  background-color: white;
+  border-radius: 2px;
+}
+.AllDetiCart{
+  display: flex;
+}
+.ImgCart{
+  width: 80px;
+  height: 80px;
+  margin: 7px ;
+  border-radius: 8px;
+}
+.TilteCart{
+  position: relative;
+  top: 12px;
+  left: 6px;
+  color: black;
+}
+.CartPrice{
+  position: relative;
+  top: 70px;
+  left: -70px;
+  color: black;
+}
+.EGB{
+  position: relative;
+  left: -10px;
+  color: black;
+}
+.CountCart{
+  height: 30px;
+  width: 50px;
+  position: relative;
+  top: 25px;
+  margin: 4px;
+}
+.RempveProCart{
+  font-size: 15px;
+  position: relative;
+  top:33px;
+  right: -10px;
+  margin: 4px;
+  cursor: pointer;
+  color: black;
+}
+.ProcedBox{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 80%;
+  z-index: 1;
+  background-color: white;
+}
+.ProcedBtnCart{
+  width: 320px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  top: 43%;
+  left: 8%;
+  background-color: #5bc791;
+  color: white;
+  padding: 9px;
+  border-radius: 5px;
+  margin:8px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.AllTotal{
+  position: relative;
+  top: -33px;
+  display: flex;
+  color: black;
+}
+.TotalTx{
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.TotalNum{
+  position: relative;
+  right: -200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+/* End Cart */
+/* Start ViewsPages */
+.ScoNavViewsScroll{
+  margin-top: 40px;
+  position: fixed;
+  top: -65px;
+  left: 31px;
+  transition: 1s;
+  font-size: 13;
+  z-index: 1;
+}
+/* End ViewsPages */
+/* Start Content */
+.ViewProduc{
+  width: 100%;
+  height: 730px;
+  /* background-color: #000000; */
+}
+.PoLinkCont{
+  position: relative;
+    top: -41px;
+}
+.PoIcoCont{
+  position: relative;
+    left: 90px;
+    top: 4px;
+    font-size: 18px;
+}
+.QuntCart{
+  position: relative;
+  left: 85px;
+  top: 4px;
+}
+.Content{
+width: 100%;
+/* float: right; */
+}
+.ImgDetil{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.AllDetils{
+  width: 50%;
+  float: right;
+  margin: 80px 0 0 0;
+  position: relative;
+  left: 37px;
+}
+.NameDetil{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: revert;
+}
+.PriceViewsDetil{
+  font-size: 21px;
+  font-weight: bold;
+}
+.TypsTx{
+font-weight: 500;
+}
+
+.Types{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.AddCartBtneDetil{
+  width: 320px;
+  height: 30px;
+  text-align: center;
+  background-color: #5bc791;
+  color: white;
+  padding: 9px ;
+  border-radius: 5px;
+  margin: 68px 130px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.LiCardViews{
+  list-style: none;
+  min-width: 4.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border: 1px solid #b4b4b4;
+  border-radius: 1.25rem;
+  background-color: #fff;
+  margin-right: 12px;
+  cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+}
+.SplitSizes{
+  display: inline;
+}
+.DisplayNonDetilsMop{
+  display: inline;
+}
+.NotAvli{
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  border: none;
+  color: #d4d6d0;
+}
+.Avli{
+  width: 65px !important;
+  font-weight: 500;
+}
+.Avli:hover{
+  border: 1px solid black;
+}
+/* End Content */
+
+/* Start SocContanier */
+.SocContanier{
+  width: 100%;
+  height: 650px;
+}
+.ImgScoConta{
+  margin-top: 3px;
+  margin-left: 3px;
+  width: calc(100% / 3 - 9px);
+  height: 100%;
+}
+/* End SocContanier */
+
+/* Start ThirdContanier */
+.ThirdContanier{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(242 241 237);
+  display: flex;
+}
+.DetilThirdCont{
+  position: relative;
+  top: 50px;
+  left: 24px;
+  font-size: 12px;
+}
+.DIVSTHIRD{
+  margin: 6px;
+}
+
+.ImgeThird1{
+  width: 380px;
+  position: relative;
+  left: 450px;
+  margin: 50px;
+}
+.ImgeThird2{
+  width: 250px;
+  position: relative;
+  top: -60px;
+  left: 530px;
+  margin: 50px;
+}
+.IconThird{
+  font-size: 18px;
+  margin: 6px;
+}
+/* End ThirdContanier */
+
+/* Start SwiperContanier */
+.SwiperContanier{
+  width: 100%;
+  height: 500px;
+  /* background-color: green; */
+}
+/* End SwiperContanier */
+
+/* start Swal */
+.swal-modal{
+  position: fixed;
+  top: 111px;
+  right: 24px;
+  width: 173px;
+}
+.swal-overlay{
+/* position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0; */
+text-align: center;
+font-size: 0;
+overflow-y: auto;
+background-color: transparent;
+/* z-index: 10000; */
+/* pointer-events: none; */
+/* opacity: 0; */
+transition: opacity .3s;
+}
+.swal-overlay--show-modal{
+  opacity: 1;
+  pointer-events: auto;
+}
+/* End Swal */
+/* Start Global Clases */
+.Text-Dec{
+  text-decoration: none;
+}
+.DisplayNon{
+  visibility: hidden;
+}
+.DisplayNon2{
+  display: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.BackNav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 73px;
+  margin: 0;
+  background-color: white ;
+  z-index: 1;
+}
+.BACKGROBlack{
+  background-color: black;
+  color: white !important;
+}
+
+/* End Global Clases */
+
